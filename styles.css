@@ -18,6 +18,8 @@ body {
   
   nav {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
   }
   
@@ -25,15 +27,14 @@ body {
     color: #fff;
     text-decoration: none;
     margin: 0 15px;
+    display: flex;
+    align-items: center;
   }
   
   .horizontal-space {
-    margin-right: 100px; /* Adjust the margin to create horizontal space between links */
+    margin-right: 120px; /* Adjust the margin to create horizontal space between links */
   }
 
-  .horizontal-space {
-    margin-right: 150px; /* Adjust the margin to create horizontal space between links */
-  }
 
   /* New styles for the second header */
   .second-header {
@@ -42,9 +43,9 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #c81c1c; /* Different color for the second header */
-    font-size: 15px;
-    padding: 5px;
+    font-size: 18px;
+    padding: 6px;
     text-align: center;
     color: white; /* Text color for the second header */
-    height: 20px;
+    height: 25px;
   }
