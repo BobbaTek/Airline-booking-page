@@ -1,3 +1,4 @@
+/* XS <=576*/
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -9,11 +10,11 @@ body {
     align-items: center;
     justify-content: center;
     background-color: hsl(0, 1%, 52%);
-    padding: 10px;
+    padding: 1px;
     color: #fff;
     text-align: left;
-    font-size: 20px;
-    height: 60px;
+    font-size: 11px;
+    height: 50px;
   }
   
   nav {
@@ -26,11 +27,66 @@ body {
   nav a {
     color: #fff;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 10px;
     display: flex;
     align-items: center;
   }
   
+  .horizontal-space {
+    margin-right: 15px; /* Adjust the margin to create horizontal space between links */
+  }
+
+
+  /* New styles for the second header */
+  .second-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #c81c1c; /* Different color for the second header */
+    font-size: 10px;
+    padding: 3px;
+    text-align: center;
+    color: white; /* Text color for the second header */
+    height: 25px;
+  }
+/* END ---- XS <=576*/
+
+/* XL >= 1200 */
+@media (min-width: 1200px){
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 1%, 52%);
+    padding: 10px;
+    color: #fff;
+    text-align: left;
+    font-size: 18px;
+    height: 60px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+  }
+
   .horizontal-space {
     margin-right: 120px; /* Adjust the margin to create horizontal space between links */
   }
@@ -43,9 +99,11 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #c81c1c; /* Different color for the second header */
-    font-size: 18px;
-    padding: 6px;
+    font-size: 15px;
+    padding: 10px;
     text-align: center;
     color: white; /* Text color for the second header */
-    height: 25px;
+    height: 30px;
   }
+}
+/* END ---- XL >= 1200*/
