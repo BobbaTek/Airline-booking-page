@@ -1,0 +1,50 @@
+@media (min-width: 390px){
+
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: hsl(0, 1%, 52%);
+        padding: 1px;
+        color: #fff;
+        text-align: left;
+        font-size: 10px;
+        height: 50px;
+      }
+
+.horizontal-space {
+    margin-right: 5px; /* Adjust the margin to create horizontal space between links */
+  }
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 6px;
+    display: flex;
+    align-items: center;
+  }
+
+  /* New styles for the second header */
+  .second-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #c81c1c; /* Different color for the second header */
+    font-size: 10px;
+    padding: 3px;
+    text-align: center;
+    color: white; /* Text color for the second header */
+    height: 25px;
+  }
+ /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;*/
+}
