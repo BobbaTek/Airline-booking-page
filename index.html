@@ -8,50 +8,83 @@
     <link rel="stylesheet" type="text/css" href="styles1.css">
 </head>
 <body>
-    <header>
+    <div class="head_container">
         <nav class="navbar navbar-expand-lg navbar-light bg-grey">
-          <a href="#fake" class="horizontal-space"></a>
-          <a href="#bookFlights" class="horizontal-space">BOOK<br>FLIGHTS</a>
-          <a href="#manageBooking" class="horizontal-space">MANAGE<br>BOOKING</a>
-          <li class="nav-item">
-            <img srcset="img/globe_xxs.jpg 390px,
-                        img/globe_xs.jpg 600w,
-                        img/globe.jpg 1200w,"
-                sizes="(max-width: 390px) 280px,
-                        (max-width: 768px) 540px,
-                          1140px"
-                src="img/globe_xs.jpg"
-                alt="Globe" class="nav-link" style="height: 100%; object-fit: contain;">
-            <a href="#language" class="horizontal-space">Barbados | English</a>
-          </li>
-          <a href="#login" class="horizontal-space">LOGIN</a>
-          <a href="#search" class="horizontal-space">SEARCH&nbsp&nbsp&nbsp&nbsp&nbsp</a>
-          <li class="nav-item">
-            <img srcset="img/lens_xxs.jpg 300w,
-                        img/lens_xs.jpg 600w,
-                        img/lens.jpg 1200w,"
-                sizes="(max-width: 390px) 280px,
-                        (max-width: 768px) 540px,
-                         1140px"
-                src="img/lens_xs.jpg"
-                alt="Lens" class="nav-link">  
-          </li>
+          <table>
+            <tr>
+              <td>
+                <a href="#fake" class="horizontal-space"></a>
+              </td>
+              <td>
+                <a href="#bookFlights" class="horizontal-space">BOOK<br>FLIGHTS</a>
+              </td>
+              <td>
+                <a href="#manageBooking" class="horizontal-space">MANAGE<br>BOOKING</a>
+              </td>
+              <td>
+                <li class="nav-item d-flex align-item-center">
+                      <td>
+                        <img srcset="img/globe_xxs.jpg 390px,
+                                    img/globe_xs.jpg 600w,
+                                    img/globe.jpg 1200w,"
+                            sizes="(max-width: 390px) 280px,
+                                    (min-width: 391px) and (max-width: 768px) 540px,
+                                    (min-width: 769px) and (max-width: 991px) 800px,
+                                    1140px"
+                            src="img/globe_xs.jpg"
+                            alt="Globe" class="nav-link" style="height: 100%; object-fit: contain;">
+                      </td>
+                      <td></td>
+                      <td>
+                        <a href="#language" class="horizontal-space">Barbados | English</a>
+                      </td>  
+                </li>
+              </td>
+              <td>
+                <a href="#login" class="horizontal-space">LOGIN</a>
+              </td>
+              <td>
+                <a href="#search" class="horizontal-space">SEARCH
+                <li class="nav-item d-flex align-item-center">
+                    <img srcset="img/lens_xxs.jpg 300w,
+                                img/lens_xs.jpg 600w,
+                                img/lens.jpg 1200w,"
+                        sizes="(max-width: 390px) 280px,
+                               (min-width: 391px) and (max-width: 768px) 540px,
+                               (min-width: 769px) and (max-width: 991px) 800px,
+                               1140px"
+                        src="img/lens_xs.jpg"
+                        alt="Lens" class="nav-link" style="height: 100%; object-fit: contain;">  
+                </li></a>
+              </td>
+            </tr>
+          </table>
         </nav>
-      </header>
+      </div>
     
       <div class="second-header">
         <nav class="navbar navbar-expand-lg navbar-light bg-grey">
-          <li class="nav-item d-flex align-item-center">
-            <img srcset="img/info_xxs.jpg 300w,
-                        img/info_xs.jpg 600w,
-                        img/info.jpg 1200w,"
-                sizes="(max-width: 390px) 280px,
-                        (max-width: 768px) 540px,
-                         1140px"
-                src="img/info_xs.jpg"
-                alt="Info" class="nav-link" style="height: 100%; object-fit: contain;">
-                <a>Current travel information for passengers</a>
-          </li>
+          <table>
+            <tr>
+              <td>
+                <li class="nav-item d-flex align-item-center">
+                  <td>
+                    <img srcset="img/info_xxs.jpg 300w,
+                                img/info_xs.jpg 600w,
+                                img/info.jpg 1200w,"
+                        sizes="(max-width: 390px) 280px,
+                               (min-width: 391px) and (max-width: 768px) 540px,
+                               769px"
+                        src="img/info_xs.jpg"
+                        alt="Info" class="nav-link" style="height: 100%; object-fit: contain;">
+                  </td>
+                  <td>
+                    <a>Current travel information for passengers</a>
+                  </td>
+                </li>
+              </td>
+            </tr>
+          </table>
         </nav>
       </div><br><br><br><br><br><br>
 
